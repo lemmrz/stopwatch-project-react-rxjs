@@ -1,0 +1,23 @@
+.btn-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.btn-container > button {
+  background-color: #4caf50; 
+  order: 2px solid #555555;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  transition-duration: 0.4s;
+  margin: 5px;
+}
+
+
+.btn-container > button:hover {
+  background-color: #ffffff; 
+}

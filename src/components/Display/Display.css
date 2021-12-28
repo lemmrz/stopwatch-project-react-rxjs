@@ -1,0 +1,13 @@
+.timer-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 45px;
+}
+
+.timer-wrapper > span {
+  padding: 10px;
+  width: 90px;
+  background-color: #131d26;
+  text-align: center;
+}
